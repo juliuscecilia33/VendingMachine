@@ -24,4 +24,13 @@ public enum Product {
     public int getPrice() {
         return this.price;
     }
+
+    public static Product valueOf(int productSelected) {
+        for (Product product : Product.values()) {
+            if (productSelected == product.getId()) {
+                return product;
+            }
+        }
+        return null;
+    }
 }
