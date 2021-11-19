@@ -15,6 +15,8 @@ public class Main {
 
         vendingMachine.selectProduct(selectProductNumber);
 
+        vendingMachine.displayEnterCoinsMessage();
+
         String userEnteredCoins = scanner.nextLine();
 
         int[] enteredCoins = {}; 

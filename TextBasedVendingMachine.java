@@ -2,6 +2,10 @@
 // Why are we creating a class from an interface? Using the encapsulation principle 
 
 public class TextBasedVendingMachine implements VendingMachine {
+
+    // Save the product selected by the user
+    private int selectedProduct;
+
     @Override
     public void displayProducts() {
         // Displays a welcome message and all the products available
@@ -21,12 +25,16 @@ public class TextBasedVendingMachine implements VendingMachine {
 
     @Override
     public void selectProduct(int product) {
-        
+        this.selectedProduct = product;
     }
 
     @Override
     public void displayEnterCoinsMessage() {
-        
+        System.out.println(" Please enter coins as follows: ");
+        System.out.println(" num of 5 cents coins,num of 10 cents coins,num of 20 cents coins,num of 50 cents coins,num of 100 cents coins  ");
+        System.out.println("                                              ");
+        System.out.println(" Example: If you would like to enter 2 ten cents coins: 0,2,0,0,0");
+        System.out.println("Please enter coins:");
     }
 
     @Override
