@@ -5,7 +5,7 @@
 // change
 
 public enum Product {
-    // Twix (id, price), Coke (2, 100), Water (3, 30), Sandwich (4, 150)
+    TWIX(1,100), COKE(2,50), WATER(3,30), SANDWICH(4,150), EMPTY(0,0);
     
     private int id;
     private int price;

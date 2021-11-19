@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        VendingMachine vendingMachine = null;
+        VendingMachine vendingMachine = new TextBasedVendingMachine();
 
         vendingMachine.displayProducts();
 
