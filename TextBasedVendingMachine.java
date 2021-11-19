@@ -40,7 +40,7 @@ public class TextBasedVendingMachine implements VendingMachine {
 
     @Override
     public void enterCoins(int... coins) {
-        Calculator calculator = null;
+        Calculator calculator = new SimpleCalculator();
 
         Product product = Product.valueOf(this.selectedProduct);
         int total = calculator.calculateTotal(new CoinBundle(coins));

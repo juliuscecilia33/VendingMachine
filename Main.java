@@ -19,7 +19,7 @@ public class Main {
 
         String userEnteredCoins = scanner.nextLine();
 
-        int[] enteredCoins = {}; 
+        int[] enteredCoins = Coin.parseCoins(userEnteredCoins); // this will be entered as a string; we need to convert to integer array
 
         vendingMachine.enterCoins(enteredCoins);
         vendingMachine.displayChangeMessage();
