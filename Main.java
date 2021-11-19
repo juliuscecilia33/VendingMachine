@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// The Main entry point of our program, orchestrates calls and classes
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
