@@ -23,5 +23,7 @@ public class Main {
 
         vendingMachine.enterCoins(enteredCoins);
         vendingMachine.displayChangeMessage();
+
+        scanner.close();
     }
 }

@@ -1,7 +1,7 @@
 
 // Enum: A special datatype that enables you to define a set of constants in java
 
-// In this case, we will be assuming the products and its properties (price, name) will not
+// In this case, we will be assuming the products and its properties (like price or name) will not
 // change
 
 public enum Product {
