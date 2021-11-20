@@ -28,6 +28,5 @@ Designing and Coding a Vending Machine using Object Oriented Programming with th
     - Help us return the change; if we need to return 2 10 cents, then we can have [0, 2, 0, 0, 0]; 5 fields for every different coin 
 
 # Resources
-[Designing a Vending Machine in Java](https://www.hellocodeclub.com/vending-machine-java-how-to-design/)
-<br />
-[Resource on creating diagrams](https://java-programming.mooc.fi/part-11/1-class-diagrams)
+1. [Designing a Vending Machine in Java](https://www.hellocodeclub.com/vending-machine-java-how-to-design/)
+2. [Resource on creating diagrams](https://java-programming.mooc.fi/part-11/1-class-diagrams)
