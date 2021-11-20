@@ -1,4 +1,4 @@
-# VendingMachineOOP
+# VendingMachine
 Designing and Coding a Vending Machine using Object Oriented Programming with the help of Hello Code's article on [Designing a Vending Machine in Java](https://www.hellocodeclub.com/vending-machine-java-how-to-design/)
 
 ## General Steps
